@@ -62,22 +62,17 @@ export const Sparkles = () => {
     </div>
   );
 };
-export const Card = ({
-  className,
-  children,
-}: {
-  className?: string;
-  children: React.ReactNode;
-}) => {
+
+export const Card = ({ className, ...props }: React.ComponentProps<"div">) => {
   return (
     <div
+      data-slot="card"
       className={cn(
-        "max-w-sm w-full mx-auto p-8 rounded-xl border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group",
+        "relative  w-full mx-auto p-8 rounded-xl border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group",
         className
       )}
-    >
-      {children}
-    </div>
+      {...props}
+    />
   );
 };
 
@@ -148,5 +143,21 @@ export const Container = ({
     >
       {children}
     </div>
+  );
+};
+
+export const CardFooter = ({
+  className,
+  ...props
+}: React.ComponentProps<"div">) => {
+  return (
+    <div
+      data-slot="card-footer"
+      className={cn(
+        "flex items-center px-6 [.border-t]:pt-6 sticky bottom-10",
+        className
+      )}
+      {...props}
+    />
   );
 };

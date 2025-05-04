@@ -54,16 +54,16 @@ export const STACKS: SkillProps = {
   "Vue.js": <SiVuedotjs size={iconSize} className="text-green-400" />,
   "React.js": <SiReact size={iconSize} className="text-cyan-400" />,
   "React Table": <SiReacttable size={iconSize} className="text-rose-600" />,
-  "React Hook Form": (
-    <SiReacthookform size={iconSize} className="text-pink-500" />
-  ),
+//   "React Hook Form": (
+//     <SiReacthookform size={iconSize} className="text-pink-500" />
+//   ),
   "React Router": <SiReactrouter size={iconSize} className="text-red-500" />,
   Vite: <SiVite size={iconSize} className="text-purple-500" />,
   "Framer Motion": (
     <TbBrandFramerMotion size={iconSize} className="text-fuchsia-500" />
   ),
   Redux: <SiRedux size={iconSize} className="text-violet-500" />,
-  "Astro.js": <SiAstro size={iconSize} className="text-pink-500" />,
+//   "Astro.js": <SiAstro size={iconSize} className="text-pink-500" />,
   "Next.js": <SiNextdotjs size={iconSize} />,
   "Node.js": <SiNodedotjs size={iconSize} className="text-green-500" />,
   "Express.js": <SiExpress size={iconSize} />,
@@ -71,16 +71,16 @@ export const STACKS: SkillProps = {
   PHP: <SiPhp size={iconSize} className="text-indigo-400" />,
   Laravel: <SiLaravel size={iconSize} className="text-red-600" />,
   Prisma: <SiPrisma size={iconSize} className="text-teal-500" />,
-  Kotlin: <SiKotlin size={iconSize} className="text-purple-500" />,
+//   Kotlin: <SiKotlin size={iconSize} className="text-purple-500" />,
   PostgreSql: <BiLogoPostgresql size={iconSize} className="text-blue-400" />,
   MySql: <SiMysql size={iconSize} className="text-blue-400" />,
   MongoDb: <SiMongodb size={iconSize} className="text-green-600" />,
-  Firebase: <SiFirebase size={iconSize} className="text-yellow-500" />,
-  Supabase: <SiSupabase size={iconSize} className="text-emerald-500" />,
+//   Firebase: <SiFirebase size={iconSize} className="text-yellow-500" />,
+//   Supabase: <SiSupabase size={iconSize} className="text-emerald-500" />,
   Jest: <SiJest size={iconSize} className="text-rose-400" />,
   Docker: <SiDocker size={iconSize} className="text-blue-500" />,
   Npm: <FaNpm size={iconSize} className="text-red-500" />,
   Yarn: <SiYarn size={iconSize} className="text-sky-400" />,
-  bun: <SiBun size={iconSize} className="text-yellow-50" />,
+//   bun: <SiBun size={iconSize} className="text-yellow-50" />,
   Github: <SiGithub size={iconSize} />,
 };
